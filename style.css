@@ -102,7 +102,7 @@ main{
 .page-font{
 
     color: rgb(0, 128, 0);
-    font-size: 20px;
+    font-size: 18px;
 }
 .page-font span{
 
@@ -113,5 +113,42 @@ main{
     margin: 0px 10px;
     border: 1px solid #80805D;
     cursor: pointer;
+}
+
+.Card-parent-div{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    margin-top: 25px;
+
+}
+.single-card-div{
+   height: 250px;
+   border: 3px solid gray;
+}
+.single-card-div img{
+
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.single-card-div:hover img{
+
+    transform: scale(1.1);
+    border-radius: 25px;
+    
+
+
+}
+.single-card-div div{
+
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
 }
 

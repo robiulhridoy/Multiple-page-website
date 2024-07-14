@@ -11,6 +11,8 @@
     background-color: rgba(0, 0, 128, 0.781);
     padding: 8px 200px;
     border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
 }
 
 .navigation ul{

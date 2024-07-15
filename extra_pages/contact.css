@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav bar code start here */
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 128, 0.781);
+    padding: 8px 200px;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0;
+}
+
+.navigation ul{
+
+    display: flex;
+}
+.navigation ul li{
+
+    list-style: none;
+}
+.navigation ul li a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+    transition: 0.5s;
+}
+.navigation ul li a:hover{
+
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+}
+.for-logo h2{
+
+    color: white;
+
+}
+.header-main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/website\ banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+   
+    
+}
+.header-main input{
+
+    width: 400px;
+    height: 25px;
+    font-size: 20px;
+    padding-left: 5px;
+    
+}
+.for-icon{
+
+    background-color: rgba(0, 128, 0, 0.836);
+    color: red;
+    font-size: 15px;
+    margin-left: -2px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* form code start here */
+
+
+form{
+
+    width: 800px;
+    background-color: lightpink;
+    margin: 80px auto;
+    padding: 40px 0;
+    box-shadow: 10px 10px 10px gray;
+}
+form h2{
+
+     display: flex;
+     justify-content: center;
+     margin-bottom: 20px;
+}
+.name-email-parent input{
+
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    border: none;
+    padding: 5px 20px;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+form textarea{
+
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    height: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+.form-submit-button{
+
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to right, blue, blueviolet, aqua);
+
+}
